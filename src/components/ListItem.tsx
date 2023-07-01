@@ -5,10 +5,8 @@ interface Props {
 
 export default function ListItem(props: Props) {
   return (
-    <li className='flex justify-between gap-5'>
-      <p className='border-2 border-neutral-400 grow pl-3 rounded'>
-        {props.text}
-      </p>
+    <li className='flex justify-between items-center gap-5 border rounded p-1 border-neutral-400'>
+      <p className='grow pl-3 rounded'>{props.text}</p>
       <button onClick={props.onDelete} className='bg-red-600 w-8 h-8 rounded'>
         x
       </button>

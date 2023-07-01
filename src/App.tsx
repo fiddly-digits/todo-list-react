@@ -22,7 +22,7 @@ function App() {
                 +
               </button>
             </div>
-            <ul className='py-5'>
+            <ul className='pb-5'>
               <ListItem
                 text='Test'
                 onDelete={() => {
@@ -30,7 +30,7 @@ function App() {
                 }}
               ></ListItem>
             </ul>
-            <button className='bg-indigo-500 px-28 py-3 rounded'>
+            <button className='bg-indigo-500 px-28 py-2 rounded'>
               🗑️ Delete Everything 🗑️
             </button>
           </div>
