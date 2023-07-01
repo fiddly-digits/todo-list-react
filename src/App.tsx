@@ -10,8 +10,8 @@ function App() {
     <>
       <div className='min-h-screen font-sans bg-neutral-900 text-white'>
         <div className='flex flex-wrap justify-center'>
-          <div>
-            <h1 className='text-center py-5'>To-do list</h1>
+          <div className='border border-slate-200 p-20'>
+            <h1 className='text-center text-5xl pb-5'>TO-DO LIST 📝</h1>
             <div className='flex justify-between gap-5 py-5'>
               <input
                 type='text'
